@@ -27,8 +27,10 @@ header {
   align-items: center;
 }
 
-#contents {
+#contents-three-lines {
   background: none;
+  padding-top: 5px;
+  padding-right: 10px;
 }
 
 .menu-logo {
@@ -113,6 +115,7 @@ header {
   justify-content: center;
   background-color: rgb(186, 12, 186);
   color: white;
+  margin-left: 5px;
 }
 
 
