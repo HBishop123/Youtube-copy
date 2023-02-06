@@ -20,7 +20,7 @@ header {
 .left-side-header {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 2px;
   align-items: center;
 }
 
@@ -28,9 +28,21 @@ header {
   background: none;
 }
 
-#menu-logo {
+.menu-logo {
   height: 40px;
   width: 40px;
+}
+
+#youtube {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#gb {
+  font-size: 0.6em;
+  align-self: flex-start;
+  padding-top: 10px;
 }
 
 .middle-header {
