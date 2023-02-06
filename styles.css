@@ -13,12 +13,13 @@ body {
 header {
   display: flex;
   flex-direction: row;
-  padding: 10px;
+  padding: 10px 20px 10px 10px;
   justify-content: space-between;
   align-items: center;
 }
 
 /* header sytyling the the left side START */
+
 .left-side-header {
   display: flex;
   flex-direction: row;
@@ -49,30 +50,69 @@ header {
 
 /* header styling for the left side END */
 
+/* header styling for middle START */
+
 .middle-header {
   display: flex;
 }
 
-#search-bar{
-    padding: 10px;
-    width: 540px;
-    height: 40px;
-    border: 0.5px solid rgb(140, 134, 134);
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+#search-bar {
+  padding: 10px;
+  width: 540px;
+  height: 40px;
+  border: 0.5px solid rgb(140, 134, 134);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
-#search{
-    background-color: rgb(182, 186, 182);
-    border: none;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+#search {
+  background-color: rgb(182, 186, 182);
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
 }
+
+#magnify {
+  height: 25px;
+  width: 25px;
+}
+
+#microphone {
+  height: 25px;
+  width: 25px;
+  align-self: center;
+  margin-left: 10px;
+}
+
+/* header styling for middle END */
+
+/* header syling for right side START */
 
 .right-side-header {
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 10px;
+  align-items: center;
+}
+
+#bell {
+  height: 30px;
+  width: 30px;
+}
+
+.profile {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(186, 12, 186);
+  color: white;
 }
 
 
