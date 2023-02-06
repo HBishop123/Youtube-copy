@@ -9,6 +9,7 @@ body {
   width: 100vw;
 }
 
+/* header styling for the entire heading START */
 header {
   display: flex;
   flex-direction: row;
@@ -17,6 +18,7 @@ header {
   align-items: center;
 }
 
+/* header sytyling the the left side START */
 .left-side-header {
   display: flex;
   flex-direction: row;
@@ -45,9 +47,26 @@ header {
   padding-top: 10px;
 }
 
+/* header styling for the left side END */
+
 .middle-header {
   display: flex;
-  gap: 5px;
+}
+
+#search-bar{
+    padding: 10px;
+    width: 540px;
+    height: 40px;
+    border: 0.5px solid rgb(140, 134, 134);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#search{
+    background-color: rgb(182, 186, 182);
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .right-side-header {
@@ -56,8 +75,4 @@ header {
   gap: 5px;
 }
 
-#search-bar {
-  width: 500px;
-  height: 20px;
-  border: 1px solid black;
-}
+
