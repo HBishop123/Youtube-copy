@@ -48,6 +48,7 @@ header {
   font-size: 0.6em;
   align-self: flex-start;
   padding-top: 10px;
+  margin-right: 10px;
 }
 
 /* header styling for the left side END */
@@ -95,6 +96,12 @@ header {
   margin-left: 10px;
 }
 
+#small-view-search {
+  height: 25px;
+  width: 25px;
+  display: none;
+}
+
 /* header styling for middle END */
 
 /* header syling for right side START */
@@ -122,3 +129,22 @@ header {
   color: white;
   margin-left: 5px;
 }
+
+/* header syling for right side END */
+
+/* Media query to remove search bar at ceertain width */
+
+@media only screen and (max-width: 500px) {
+  #search-bar {
+    display: none;
+  }
+  #search {
+    display: none;
+  }
+  #small-view-search {
+    display: block;
+  }
+}
+
+/* Media query to remove search bar at ceertain width END */
+
