@@ -151,9 +151,13 @@ header {
 /* Media query to remove search bar at ceertain width END */
 
 nav {
+  overflow-y: scroll;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  padding-left: 30px;
+  gap: 25px;
   height: 90vh;
-  width: 300px;
-  background-color: black;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
 }
