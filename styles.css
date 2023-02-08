@@ -170,7 +170,7 @@ nav {
 }
 
 .gap {
-  width: 80%;
+  width: 95%;
   border: 0.1px solid rgb(187, 183, 183);
   align-self: flex-start;
 }
@@ -180,7 +180,7 @@ nav {
   width: 25px;
 }
 
-#subscriptions {
+.bigger-listing {
   font-size: 1.2rem;
 }
 
@@ -192,9 +192,9 @@ nav {
 }
 
 .listing-chevron {
-  padding-left: 18px;
+  padding-left: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 15px;
+  gap: 12px;
 }
