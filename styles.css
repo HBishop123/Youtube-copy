@@ -111,7 +111,7 @@ header {
 .right-side-header {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 7px;
   align-items: center;
 }
 
@@ -145,6 +145,10 @@ header {
   }
   #small-view-search {
     display: block;
+  }
+
+  .right-side-header {
+    gap: 5px;
   }
 }
 
@@ -204,17 +208,16 @@ header {
 
 /* navbar styling for smaller view START */
 
-.nav-bar-small{
+.nav-bar-small {
   display: none;
   flex-direction: column;
   align-items: flex-start;
   height: 90vh;
   width: 250px;
   gap: 20px;
-  
 }
 
-.listing-small{
+.listing-small {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -225,23 +228,21 @@ header {
   width: 50px;
 }
 
-.nav-text-small{
+.nav-text-small {
   font-size: 0.6rem;
 }
 
-
-
 /* navbar styling for smaller view END */
 
-
-
-/* media query for sidebar nav */
+/* media query for sidebar nav START */
 
 @media only screen and (max-width: 1310px) {
-  .nav-bar-large{
+  .nav-bar-large {
     display: none;
   }
-  .nav-bar-small{
+  .nav-bar-small {
     display: flex;
   }
 }
+
+/* media query for sidebar nav END */
