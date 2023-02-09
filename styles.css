@@ -204,6 +204,30 @@ header {
 
 /* navbar styling for smaller view START */
 
+.nav-bar-small{
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 90vh;
+  width: 250px;
+  gap: 20px;
+  
+}
+
+.listing-small{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 50px;
+}
+
+.nav-text-small{
+  font-size: 0.6rem;
+}
 
 
 
@@ -216,5 +240,8 @@ header {
 @media only screen and (max-width: 1310px) {
   .nav-bar-large{
     display: none;
+  }
+  .nav-bar-small{
+    display: flex;
   }
 }
