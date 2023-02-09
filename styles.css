@@ -245,4 +245,10 @@ header {
   }
 }
 
+@media only screen and (max-width: 375px) {
+  nav {
+    display: none;
+  }
+}
+
 /* media query for sidebar nav END */
