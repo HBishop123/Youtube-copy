@@ -148,9 +148,10 @@ header {
   }
 }
 
-/* Media query to remove search bar at ceertain width END */
+/* Media query to remove search bar at certain width END */
 
-nav {
+/* navbar styling for large view START */
+.nav-bar-large {
   overflow-y: scroll;
   display: flex;
   flex-direction: column;
@@ -197,4 +198,23 @@ nav {
   flex-direction: row;
   align-items: center;
   gap: 12px;
+}
+
+/* navbar styling for large view END */
+
+/* navbar styling for smaller view START */
+
+
+
+
+/* navbar styling for smaller view END */
+
+
+
+/* media query for sidebar nav */
+
+@media only screen and (max-width: 1310px) {
+  .nav-bar-large{
+    display: none;
+  }
 }
