@@ -255,6 +255,7 @@ nav {
 
 /* media query for sidebar nav END */
 
+/* main area START */
 main {
   width: 100vw;
   display: flex;
@@ -266,6 +267,20 @@ main {
   width: 100vw;
   display: flex;
   flex-direction: row;
-  padding: 5px 0px 0px 10px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  padding: 5px 10px 0px 10px;
   gap: 20px;
+  
+
 }
+
+.category-listing{
+  height: 30px;
+  align-items: center;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  
+}
+
+/* main area end */
