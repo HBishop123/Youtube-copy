@@ -146,10 +146,6 @@ header {
   #small-view-search {
     display: block;
   }
-
-  .right-side-header {
-    gap: 5px;
-  }
 }
 
 /* Media query to remove search bar at certain width END */
