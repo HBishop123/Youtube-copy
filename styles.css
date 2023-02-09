@@ -155,6 +155,12 @@ header {
 /* Media query to remove search bar at certain width END */
 
 /* navbar styling for large view START */
+
+nav {
+  height: 90vh;
+  width: 250px;
+}
+
 .nav-bar-large {
   overflow-y: scroll;
   display: flex;
@@ -252,3 +258,18 @@ header {
 }
 
 /* media query for sidebar nav END */
+
+main {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.categories {
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 0px 0px 10px;
+  gap: 20px;
+}
