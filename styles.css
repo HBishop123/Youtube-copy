@@ -10,6 +10,26 @@ body {
   overflow-x: hidden;
 }
 
+/* scrollbars */
+
+/* this is for the track of the scrollbar itself - you add a height and width for both the vertical and horizonal scrollers */
+::-webkit-scrollbar {
+  width: 0.3em;
+  height: 0.3em;
+}
+
+/* this is for the thing you scroll on the track */
+::-webkit-scrollbar-track {
+  background: lightgrey;
+  border-radius: 100vw;
+  margin-block: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 100vw;
+}
+
 /* header styling for the entire heading START */
 header {
   height: 10vh;
@@ -271,17 +291,13 @@ main {
   scroll-snap-type: x mandatory;
   padding: 5px 10px 0px 10px;
   gap: 20px;
-  
-
 }
 
-.category-listing{
+.category-listing {
   height: 30px;
   align-items: center;
   flex-shrink: 0;
   scroll-snap-align: start;
-  
 }
 
 /* main area end */
-/* notes */
