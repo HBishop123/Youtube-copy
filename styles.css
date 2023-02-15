@@ -321,10 +321,7 @@ main {
 
 .scroll-left-chevron, .scroll-right-chevron{
   cursor: pointer;
-}
-
-.scroll-left-chevron, .scroll-right-chevron{
-  cursor: pointer;
+  user-select: none;
 }
 
 .scroll-left-chevron:hover, .scroll-right-chevron:hover{
