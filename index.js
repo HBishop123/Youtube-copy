@@ -25,11 +25,24 @@ navBar.addEventListener("mouseleave", () => {
   navBar.style.overflow = "hidden";
 });
 
-const categoriesSection = document.querySelector(".categories");
-categoriesSection.addEventListener("mouseenter", () => {
-  categoriesSection.style.overflow = "scroll";
-});
 
-categoriesSection.addEventListener("mouseleave", () => {
-  categoriesSection.style.overflow = "hidden";
-});
+
+// chevrons
+
+const allIcons = document.querySelector('.categories')
+const suggestionsChevronLeft = document.querySelector('.scroll-left-chevron')
+const suggestionsChevronRight = document.querySelector('.scroll-right-chevron')
+
+suggestionsChevronLeft.addEventListener('click', () => {
+  allIcons.scrollBy({
+    left: -200,
+    behavior: 'smooth'
+  })
+})
+
+suggestionsChevronRight.addEventListener('click', () => {
+  allIcons.scrollBy({
+    left: 200,
+    behavior: 'smooth'
+  })
+})
