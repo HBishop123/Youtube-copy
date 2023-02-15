@@ -14,7 +14,6 @@ body {
 
 /* this is for the track of the scrollbar itself - you add a height and width for both the vertical and horizonal scrollers */
 ::-webkit-scrollbar {
-  width: 0.3em;
   height: 0.6em;
 }
 
@@ -287,8 +286,6 @@ main {
   width: 100vw;
   display: flex;
   flex-direction: row;
-  overflow-x: hidden;
-  scroll-snap-type: x mandatory;
   padding: 5px 10px 0px 10px;
   gap: 20px;
 }
@@ -299,7 +296,5 @@ main {
   flex-shrink: 0;
   scroll-snap-align: start;
 }
-
-
 
 /* main area end */
