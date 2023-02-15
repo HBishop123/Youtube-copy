@@ -319,6 +319,18 @@ main {
   font-size: 24px;
 }
 
+.scroll-left-chevron, .scroll-right-chevron{
+  cursor: pointer;
+}
+
+.scroll-left-chevron, .scroll-right-chevron{
+  cursor: pointer;
+}
+
+.scroll-left-chevron:hover, .scroll-right-chevron:hover{
+  scale: 1.2;
+}
+
 /* media query for chevron positioning */
 @media only screen and (max-width: 1310px) {
   .scrollers {
