@@ -337,6 +337,10 @@ main {
 }
 .scroll-left-chevron:hover,
 .scroll-right-chevron:hover {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  font-size: 1.2em;
+  
+  
 }
 
 /* media query for category positioning */
