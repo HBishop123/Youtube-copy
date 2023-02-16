@@ -38,7 +38,6 @@ header {
   top: 0;
   position: sticky;
   background-color: white;
-
 }
 
 /* header sytyling the the left side START */
@@ -370,8 +369,15 @@ main {
   justify-content: center;
   padding: 100px 20px 20px 280px;
   z-index: -1;
-  /* change padding at smaller sizes */
+  /* change padding at smaller sizes ********/
 }
+
+/* @media only screen and (max-width: 900px) {
+  .video-area {
+    padding-left: 100px;
+    
+  }
+} */
 
 .video {
   width: 350px;
