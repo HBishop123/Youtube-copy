@@ -25,24 +25,22 @@ navBar.addEventListener("mouseleave", () => {
   navBar.style.overflow = "hidden";
 });
 
-
-
 // chevrons
 
-const allIcons = document.querySelector('.categories')
-const suggestionsChevronLeft = document.querySelector('.scroll-left-chevron')
-const suggestionsChevronRight = document.querySelector('.scroll-right-chevron')
+const allIcons = document.querySelector(".categories");
+const suggestionsChevronLeft = document.querySelector(".scroll-left-chevron");
+const suggestionsChevronRight = document.querySelector(".scroll-right-chevron");
 
-suggestionsChevronLeft.addEventListener('click', () => {
+suggestionsChevronLeft.addEventListener("click", () => {
   allIcons.scrollBy({
     left: -200,
-    behavior: 'smooth'
-  })
-})
+    behavior: "smooth",
+  });
+});
 
-suggestionsChevronRight.addEventListener('click', () => {
+suggestionsChevronRight.addEventListener("click", () => {
   allIcons.scrollBy({
     left: 200,
-    behavior: 'smooth'
-  })
-})
+    behavior: "smooth",
+  });
+});

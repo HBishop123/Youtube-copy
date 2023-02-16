@@ -173,7 +173,7 @@ header {
 
 nav {
   height: 90vh;
-  width: 250px;
+  width: auto;
 }
 
 .nav-bar-large {
@@ -260,11 +260,11 @@ nav {
 @media only screen and (max-width: 1310px) {
   .nav-bar-large {
     display: none;
-    width: 200px;
+    width: auto;
   }
   .nav-bar-small {
     display: flex;
-    width: 75px;
+    width: auto;
   }
 }
 
@@ -272,7 +272,6 @@ nav {
   nav {
     display: none;
   }
-  
 }
 
 /* media query for sidebar nav END */
@@ -284,20 +283,22 @@ main {
   flex-direction: row;
 }
 
-.suggestion-area{
+.suggestion-area {
   display: flex;
   flex-direction: column;
+  width: 75%;
+  align-items: center;
 }
 
 .categories {
   height: 50px;
-  width: 100vw;
+  width: 50vw;
   display: flex;
   flex-direction: row;
   padding: 5px 10px 0px 10px;
   gap: 20px;
   overflow-x: hidden;
-  padding-right: 15%;
+  align-items: center;
 }
 
 .category-listing {
@@ -308,39 +309,42 @@ main {
   cursor: pointer;
 }
 
-.scrollers{
+.scrollers {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 70%;
-  padding-left: 180px;
+  width: 400px;
   gap: 10px;
   font-size: 24px;
+  position: relative;
 }
 
-.scroll-left-chevron, .scroll-right-chevron{
+.scroll-left-chevron,
+.scroll-right-chevron {
   cursor: pointer;
   user-select: none;
 }
 
-.scroll-left-chevron:hover, .scroll-right-chevron:hover{
-  scale: 1.2;
+.scroll-left-chevron {
+  position: fixed;
+  padding-right: 80px;
 }
 
-/* media query for chevron positioning */
-@media only screen and (max-width: 1310px) {
-  .scrollers {
-    padding-left: 150px ;
-  }
+.scroll-right-chevron {
+  position: fixed;
+  padding-right: 40px;
 }
+.scroll-left-chevron:hover,
+.scroll-right-chevron:hover {
+}
+
+/* media query for category positioning */
 
 @media only screen and (max-width: 375px) {
-  .scrollers {
-    padding-right: 60px ;
+  .suggestion-area {
+    width: 95%;
   }
-  
 }
 
 /* main area end */
-
