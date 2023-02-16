@@ -5,9 +5,8 @@
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 /* scrollbars */
@@ -173,7 +172,7 @@ header {
 
 nav {
   height: 90vh;
-  width: auto;
+  width: 10%;
 }
 
 .nav-bar-large {
@@ -185,6 +184,7 @@ nav {
   height: 90vh;
   width: 250px;
   background-color: rgb(255, 255, 255);
+  position: fixed;
 }
 
 .listing {
@@ -278,16 +278,19 @@ nav {
 
 /* main area START */
 main {
-  width: 100vw;
   display: flex;
   flex-direction: row;
+
 }
 
+/* controls both vidoes and suggestions */
 .suggestion-area {
   display: flex;
   flex-direction: column;
-  width: 75%;
+  width: 100%;
+  height: 100%;
   align-items: center;
+  background-color: rgb(140, 87, 87);
 }
 
 .categories {
@@ -339,8 +342,6 @@ main {
 .scroll-right-chevron:hover {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
   font-size: 1.2em;
-  
-  
 }
 
 /* media query for category positioning */
@@ -349,6 +350,26 @@ main {
   .suggestion-area {
     width: 100%;
   }
+}
+
+/* area for listing of videos */
+
+.video-area {
+  height: 900px;
+  width: 100%;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 50px;
+  overflow-y: scroll;
+  
+}
+
+.video {
+  width: 320px;
+  height: 250px;
+  border: 1px solid black;
+  padding-left: 40px;
 }
 
 /* main area end */
