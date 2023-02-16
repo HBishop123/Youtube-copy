@@ -264,7 +264,7 @@ nav {
   }
   .nav-bar-small {
     display: flex;
-    width: auto;
+    width: 100px
   }
 }
 
@@ -343,7 +343,7 @@ main {
 
 @media only screen and (max-width: 375px) {
   .suggestion-area {
-    width: 95%;
+    width: 100%;
   }
 }
 
