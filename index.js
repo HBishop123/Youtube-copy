@@ -19,10 +19,10 @@ searchButton.addEventListener("click", (e) => {
 // shows the scroll bar when section is hovered
 const navBar = document.querySelector(".nav-bar-large");
 navBar.addEventListener("mouseenter", () => {
-  navBar.style.overflow = "scroll";
+  navBar.style.overflowY = "scroll";
 });
 navBar.addEventListener("mouseleave", () => {
-  navBar.style.overflow = "hidden";
+  navBar.style.overflowY = "hidden";
 });
 
 // chevrons

@@ -264,7 +264,7 @@ nav {
   }
   .nav-bar-small {
     display: flex;
-    width: 100px
+    width: 100px;
   }
 }
 
