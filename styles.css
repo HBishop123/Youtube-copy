@@ -177,6 +177,7 @@ nav {
   height: 100vh;
   width: 10%;
   position: fixed;
+  z-index: 1;
 }
 
 .nav-bar-large {
