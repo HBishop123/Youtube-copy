@@ -1,7 +1,7 @@
+// function to use the search bar
 let searchBar = document.getElementById("search-bar");
 const searchButton = document.getElementById("search");
 
-// function to use the search bar
 function searchQuery() {
   searchValue = searchBar.value;
   if (searchValue === "") {
