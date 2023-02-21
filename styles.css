@@ -371,7 +371,6 @@ main {
   justify-content: center;
   padding: 100px 20px 20px 250px;
   z-index: -1;
-  /* change padding at smaller sizes ********/
 }
 
 .video-outline {
@@ -410,6 +409,7 @@ main {
   }
 }
 
+/* styling for the individual video listings */
 .video-container {
   display: flex;
   flex-direction: column;
@@ -430,7 +430,14 @@ main {
 }
 
 .title {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  word-wrap: break-word;
+  white-space: pre-line;
+  width: 300px;
 }
 
+.channel-name,
+.views {
+  font-size: 0.8em;
+}
 /* main area end */
