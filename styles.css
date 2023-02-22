@@ -389,10 +389,11 @@ main {
   }
 }
 
-@media only screen and (max-width: 859px) {
+
+@media only screen and (max-width: 899px) {
   .video-area {
     width: 50%;
-    padding-left: 10px;
+    padding-left: 0px;
   }
 }
 
@@ -409,6 +410,7 @@ main {
     padding-left: 20px;
     padding-top: 50px;
   }
+
 }
 
 /* styling for the individual video listings */
