@@ -9,6 +9,7 @@
     <script src="index.js" defer></script>
   </head>
   <body>
+    <!-- content for the header, incl. search, youtube icon, and various icons on the right START -->
     <header>
       <div class="left-side-header">
         <button id="contents-three-lines">
@@ -68,6 +69,9 @@
         </div>
       </div>
     </header>
+    <!-- content for the header, incl. search, youtube icon, and various icons on the right END -->
+
+    <!-- START of main section nav on left -->
     <main>
       <nav>
         <div class="nav-bar-large">
@@ -181,6 +185,24 @@
               alt="show more"
             />
             <p class="nav-text">Show 3 More</p>
+          </div>
+
+          <div class="hidden-subscriptions">
+
+            <div class="listing" class="ghost">
+              <div class="circle-logo" id="ghost"></div>
+              <p class="nav-text">Ghost Videos</p>
+            </div>
+
+            <div class="listing" class="ghost">
+              <div class="circle-logo" id="ghost"></div>
+              <p class="nav-text">Ghost Videos</p>
+            </div>
+
+            <div class="listing" class="ghost">
+              <div class="circle-logo" id="ghost"></div>
+              <p class="nav-text">Ghost Videos</p>
+            </div>
           </div>
 
           <div class="gap"></div>
@@ -345,6 +367,10 @@
           </div>
         </div>
       </nav>
+
+      <!-- END of main section nav on left -->
+
+      <!-- START of suggestion area below search bar -->
       <div class="suggestion-area">
       <div class="categories">
         <div class="scrollers">
@@ -378,6 +404,9 @@
         <button class="category-listing">Art</button>
      </div>
 
+     <!-- END of suggestion area below search bar -->
+
+     <!-- START of area for the video listings -->
      <div class="video-area">
 
       <div class="video-container">
@@ -494,31 +523,7 @@
       <div class="video-container">
         <div class="video-outline"></div>
         <div class="image-logo-and-title">
-          <div class="image-logo"></div>
-          <div class="title-channel-views-container">
-          <div class="title">Cute baby lamb has a loud baa
-          </div>
-          <div class="channel-name">Cute and relaxing videos</div>
-          <div class="views">500k 8 hours ago</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="video-container">
-        <div class="video-outline"></div>
-        <div class="image-logo-and-title">
-          <div class="image-logo"></div>
-          <div class="title-channel-views-container">
-          <div class="title">We tried the best rated climbing gym in LA // ft. Geek Climber
-          </div>
-          <div class="channel-name">lol</div>
-          <div class="views">500k 8 hours ago</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="video-container">
-        <div class="video-outline"></div>
+          <div class="image-logo"></div>  <!-- START of area for the video listings -->
         <div class="image-logo-and-title">
           <div class="image-logo"></div>
           <div class="title-channel-views-container">
@@ -711,5 +716,6 @@
     </div>
     </div>
     </main>
+      <!-- END of area for the video listings -->
   </body>
 </html>
