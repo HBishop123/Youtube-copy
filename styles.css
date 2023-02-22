@@ -178,11 +178,21 @@ nav {
   height: 100vh;
   width: 10%;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
 }
 
 .nav-bar-large {
   overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  height: 90vh;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+}
+
+.hidden-subscriptions {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -257,6 +267,7 @@ nav {
 .nav-text-small {
   font-size: 0.6rem;
 }
+
 
 /* navbar styling for smaller view END */
 
@@ -372,7 +383,6 @@ main {
   align-items: center;
   justify-content: center;
   padding: 100px 20px 20px 250px;
-  z-index: -1;
 }
 
 .video-outline {
