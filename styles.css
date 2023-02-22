@@ -392,7 +392,7 @@ main {
 @media only screen and (max-width: 859px) {
   .video-area {
     width: 50%;
-    padding-left: 0px;
+    padding-left: 10px;
   }
 }
 
@@ -402,7 +402,8 @@ main {
     height: 150px;
   }
   .video-area {
-    gap: 0px;
+    gap: 80px;
+    margin-top: 50px;
     padding-bottom: 0px;
     grid-auto-rows: 180px;
     padding-left: 0px;
@@ -425,7 +426,7 @@ main {
 
 .image-logo {
   height: 40px;
-  width: 40px;
+  min-width: 40px;
   border-radius: 50px;
   border: 1px solid black;
 }
@@ -434,11 +435,23 @@ main {
   padding-bottom: 5px;
   word-wrap: break-word;
   white-space: pre-line;
-  width: 300px;
+  min-width: 30px;
 }
 
 .channel-name,
 .views {
   font-size: 0.8em;
 }
+
+/* padding for the individual videos at different sizes */
+
+@media only screen and (max-width: 1456px){
+  .video-area{
+    gap: 80px;
+  }
+}
+
+
+
+
 /* main area end */
