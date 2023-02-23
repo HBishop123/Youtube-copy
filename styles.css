@@ -194,7 +194,7 @@ nav {
 }
 
 .hidden-subscriptions {
-  display: flex;
+  display: none; 
   flex-direction: column;
   align-items: flex-start;
   gap: 25px;
@@ -233,12 +233,13 @@ nav {
   border: 1px solid black;
 }
 
-.listing-chevron {
+.listing-chevron, .listing-chevron-hide {
   padding-left: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 12px;
+  cursor: pointer;
 }
 
 /* navbar styling for large view END */
@@ -350,12 +351,12 @@ main {
 
 .scroll-left-chevron {
   position: fixed;
-  padding-right: 80px;
+  margin-right: 80px;
 }
 
 .scroll-right-chevron {
   position: fixed;
-  padding-right: 40px;
+  margin-right: 40px;
 }
 .scroll-left-chevron:hover,
 .scroll-right-chevron:hover {
