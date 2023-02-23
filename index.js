@@ -44,3 +44,19 @@ suggestionsChevronRight.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
+// chevron to show more subs
+
+const showMoreContent = document.querySelector(".hidden-subscriptions");
+const showMoreButton = document.querySelector(".listing-chevron");
+const hideMoreContent = document.querySelector(".listing-chevron-hide");
+
+showMoreButton.addEventListener("click", () => {
+  showMoreButton.style.display = "none";
+  showMoreContent.style.display = "flex";
+});
+
+hideMoreContent.addEventListener('click', () => {
+  showMoreButton.style.display = "flex"
+  showMoreContent.style.display = "none"
+})
