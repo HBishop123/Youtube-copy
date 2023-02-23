@@ -183,6 +183,7 @@ nav {
 
 .nav-bar-large {
   overflow-y: hidden;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -267,7 +268,6 @@ nav {
 .nav-text-small {
   font-size: 0.6rem;
 }
-
 
 /* navbar styling for smaller view END */
 
@@ -400,7 +400,6 @@ main {
   }
 }
 
-
 @media only screen and (max-width: 899px) {
   .video-area {
     width: 50%;
@@ -421,7 +420,6 @@ main {
     padding-left: 20px;
     padding-top: 50px;
   }
-
 }
 
 /* styling for the individual video listings */
@@ -458,13 +456,10 @@ main {
 
 /* padding for the individual videos at different sizes */
 
-@media only screen and (max-width: 1456px){
-  .video-area{
+@media only screen and (max-width: 1456px) {
+  .video-area {
     gap: 80px;
   }
 }
-
-
-
 
 /* main area end */
