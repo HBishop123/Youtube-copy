@@ -60,3 +60,26 @@ hideMoreContent.addEventListener('click', () => {
   showMoreButton.style.display = "flex"
   showMoreContent.style.display = "none"
 })
+
+
+// menu button to show small or large sidebar
+
+const menuButton = document.querySelector('.menu-logo')
+const largeNav = document.querySelector('.nav-bar-large')
+const smallNav = document.querySelector('.nav-bar-small')
+const videoArea = document.querySelector('.video-area')
+const navBarAll = document.querySelector('nav')
+
+menuButton.addEventListener('click', () => {
+  if(largeNav.style.display = 'flex'){
+  largeNav.style.display = "none"
+  smallNav.style.display = "flex"
+  smallNav.style.width = "100px"
+  navBarAll.style.width = "100px"
+  videoArea.style.display = "none"
+  videoArea.style.display = "grid"
+  }
+})
+
+// grid-template-columns: repeat(auto-fit, minmax(250px, 350px));
+  // grid-auto-rows: 300px;
