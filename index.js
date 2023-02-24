@@ -69,6 +69,7 @@ const largeNav = document.querySelector('.nav-bar-large')
 const smallNav = document.querySelector('.nav-bar-small')
 const videoArea = document.querySelector('.video-area')
 const navBarAll = document.querySelector('nav')
+const suggestionsArea = document.querySelector('.suggestion-area')
 
 menuButton.addEventListener('click', () => {
   if(largeNav.style.display = 'flex'){
@@ -76,8 +77,9 @@ menuButton.addEventListener('click', () => {
   smallNav.style.display = "flex"
   smallNav.style.width = "100px"
   navBarAll.style.width = "100px"
-  videoArea.style.display = "none"
-  videoArea.style.display = "grid"
+  videoArea.remove()
+  // suggestionsArea.appendChild(videoArea)
+
   }
 })
 
