@@ -56,32 +56,34 @@ showMoreButton.addEventListener("click", () => {
   showMoreContent.style.display = "flex";
 });
 
-hideMoreContent.addEventListener('click', () => {
-  showMoreButton.style.display = "flex"
-  showMoreContent.style.display = "none"
-})
-
+hideMoreContent.addEventListener("click", () => {
+  showMoreButton.style.display = "flex";
+  showMoreContent.style.display = "none";
+});
 
 // menu button to show small or large sidebar
 
-const menuButton = document.querySelector('.menu-logo')
-const largeNav = document.querySelector('.nav-bar-large')
-const smallNav = document.querySelector('.nav-bar-small')
-const videoArea = document.querySelector('.video-area')
-const navBarAll = document.querySelector('nav')
-const suggestionsArea = document.querySelector('.suggestion-area')
+const menuButton = document.querySelector(".menu-logo");
+const largeNav = document.querySelector(".nav-bar-large");
+const smallNav = document.querySelector(".nav-bar-small");
+const videoIndividuals = document.querySelectorAll(".video-container");
+const navBarAll = document.querySelector("nav");
+const videoArea = document.querySelector(".video-area");
 
-menuButton.addEventListener('click', () => {
-  if(largeNav.style.display = 'flex'){
-  largeNav.style.display = "none"
-  smallNav.style.display = "flex"
-  smallNav.style.width = "100px"
-  navBarAll.style.width = "100px"
-  videoArea.remove()
-  // suggestionsArea.appendChild(videoArea)
+menuButton.addEventListener("click", () => {
+  if ((largeNav.style.display = "flex")) {
+    largeNav.style.display = "none";
+    smallNav.style.display = "flex";
+    smallNav.style.width = "100px";
+    navBarAll.style.width = "100px";
+    // videoArea.style.paddingLeft = "90px"
 
+    //   videoIndividuals.forEach(element => {
+    //     element.remove()})
+    // videoIndividuals.forEach(element => {
+    //   videoArea.appendChild(element)
+    // })
   }
-})
+});
 
-// grid-template-columns: repeat(auto-fit, minmax(250px, 350px));
-  // grid-auto-rows: 300px;
+// the padding needs changing
