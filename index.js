@@ -76,16 +76,10 @@ menuButton.addEventListener("click", () => {
     smallNav.style.display = "flex";
     smallNav.style.width = "100px";
     navBarAll.style.width = "100px";
-    videoArea.style.paddingLeft = "90px"
-    videoArea.style.gap = "70px"
+    videoArea.style.paddingLeft = "90px";
+    videoArea.style.gap = "70px";
 
+    if ((largeNav.style.display = "none")) {
+    }
   }
 });
-
-// the padding needs changing
-
-//   videoIndividuals.forEach(element => {
-    //     element.remove()})
-    // videoIndividuals.forEach(element => {
-    //   videoArea.appendChild(element)
-    // })
