@@ -398,14 +398,14 @@ main {
 @media only screen and (max-width: 1459px) {
   .video-area {
     padding-left: 90px;
-    gap: 20px;
+    gap: 70px;
   }
 }
 
 @media only screen and (max-width: 899px) {
   .video-area {
-    width: 50%;
-    padding-left: 0px;
+    width: 50% !important;
+    padding-left: 0px  !important;
   }
 }
 
