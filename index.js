@@ -74,12 +74,13 @@ menuButton.addEventListener("click", () => {
   if ((largeNav.style.display = "flex")) {
     largeNav.style.display = "none";
     smallNav.style.display = "flex";
-    smallNav.style.width = "100px";
-    navBarAll.style.width = "100px";
     videoArea.style.paddingLeft = "90px";
     videoArea.style.gap = "70px";
 
-    if ((largeNav.style.display = "none")) {
-    }
+  } else if ((changeCounter = 1)) {
+    largeNav.style.display = "flex";
+    smallNav.style.display = "none";
+    videoArea.style.paddingLeft = "250px";
+    videoArea.style.gap = "70px";
   }
 });
