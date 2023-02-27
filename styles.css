@@ -275,7 +275,7 @@ nav {
 
 /* media query for sidebar nav START */
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1459px) {
   .nav-bar-large {
     display: none;
     width: auto;
@@ -395,7 +395,7 @@ main {
 
 /* media queries for different sizes of screen */
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1459px) {
   .video-area {
     padding-left: 90px;
     gap: 20px;
@@ -455,7 +455,7 @@ main {
 
 /* padding for the individual videos at different sizes */
 
-@media only screen and (max-width: 1456px) {
+@media only screen and (max-width: 1459px) {
   .video-area {
     gap: 80px;
   }
