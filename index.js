@@ -78,12 +78,14 @@ menuButton.addEventListener("click", () => {
     navBarAll.style.width = "100px";
     // videoArea.style.paddingLeft = "90px"
 
-    //   videoIndividuals.forEach(element => {
-    //     element.remove()})
-    // videoIndividuals.forEach(element => {
-    //   videoArea.appendChild(element)
-    // })
+    
   }
 });
 
 // the padding needs changing
+
+//   videoIndividuals.forEach(element => {
+    //     element.remove()})
+    // videoIndividuals.forEach(element => {
+    //   videoArea.appendChild(element)
+    // })
