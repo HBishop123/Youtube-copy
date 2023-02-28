@@ -61,13 +61,16 @@ hideMoreContent.addEventListener("click", () => {
   showMoreContent.style.display = "none";
 });
 
+
+
+
+
+
 // menu button to show small or large sidebar
 
 const menuButton = document.querySelector(".menu-logo");
 const largeNav = document.querySelector(".nav-bar-large");
 const smallNav = document.querySelector(".nav-bar-small");
-const videoIndividuals = document.querySelectorAll(".video-container");
-const navBarAll = document.querySelector("nav");
 const videoArea = document.querySelector(".video-area");
 
 menuButton.addEventListener("click", () => {
