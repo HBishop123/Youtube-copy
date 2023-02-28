@@ -430,7 +430,7 @@ main {
   height: 250px;
 }
 
-.video-image{
+.video-image {
   width: 350px;
   height: 250px;
   border-radius: 10px;
@@ -463,6 +463,11 @@ main {
     grid-auto-rows: 200px;
     padding-left: 20px;
     padding-top: 50px;
+  }
+
+  .video-image {
+    width: 250px;
+    height: 150px;
   }
 }
 
