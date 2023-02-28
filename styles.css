@@ -57,10 +57,15 @@ header {
   padding-right: 10px;
 }
 
-.menu-logo {
+.menu-logo, #menu-logo-small {
   height: 40px;
   width: 40px;
 }
+
+.menu-logo:active, #menu-logo-small:active {
+  scale: 1.1;
+}
+
 
 #youtube {
   display: flex;
@@ -277,12 +282,12 @@ nav {
 
 @media only screen and (max-width: 1459px) {
   .nav-bar-large {
-    display: none;
-    width: auto;
+    display: none !important;
+    width: auto !important;
   }
   .nav-bar-small {
-    display: flex;
-    width: 100px;
+    display: flex !important;
+    width: 100px !important;
   }
 }
 
@@ -397,8 +402,8 @@ main {
 
 @media only screen and (max-width: 1459px) {
   .video-area {
-    padding-left: 90px;
-    gap: 70px;
+    padding-left: 90px !important;
+    gap: 70px !important;
   }
 }
 
