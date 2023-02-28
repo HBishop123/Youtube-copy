@@ -361,7 +361,6 @@ main {
   overflow-x: hidden;
   align-items: center;
   position: fixed;
-  background-color: white;
 }
 
 .category-listing {
@@ -429,7 +428,12 @@ main {
 .video-outline {
   width: 350px;
   height: 250px;
-  border: 1px solid black;
+}
+
+.video-image{
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
 }
 
 /* media queries for different sizes of screen */
