@@ -71,16 +71,18 @@ const navBarAll = document.querySelector("nav");
 const videoArea = document.querySelector(".video-area");
 
 menuButton.addEventListener("click", () => {
-  if ((largeNav.style.display = "flex")) {
+  if ((menuButton.className === "menu-logo") && (menuButton.id !== "menu-logo-small")) {
     largeNav.style.display = "none";
     smallNav.style.display = "flex";
     videoArea.style.paddingLeft = "90px";
     videoArea.style.gap = "70px";
+    menuButton.id = "menu-logo-small"
 
-  } else if ((changeCounter = 1)) {
-    largeNav.style.display = "flex";
+  } else if ((menuButton.id === 'menu-logo-small')) {
     smallNav.style.display = "none";
+    largeNav.style.display = "flex";
     videoArea.style.paddingLeft = "250px";
     videoArea.style.gap = "70px";
+    menuButton.id = ""
   }
 });
