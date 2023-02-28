@@ -57,15 +57,24 @@ header {
   padding-right: 10px;
 }
 
-.menu-logo, #menu-logo-small {
+/* menu button styling START */
+.menu-logo,
+#menu-logo-small {
   height: 40px;
   width: 40px;
 }
 
-.menu-logo:active, #menu-logo-small:active {
+.menu-logo:hover,
+#menu-logo-small:hover {
+  scale: 1.05;
+}
+
+.menu-logo:active,
+#menu-logo-small:active {
   scale: 1.1;
 }
 
+/* menu button styling END */
 
 #youtube {
   display: flex;
@@ -280,6 +289,27 @@ nav {
 
 /* media query for sidebar nav START */
 
+@keyframes jiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(10deg);
+  }
+  40% {
+    transform: rotate(-10deg);
+  }
+  60% {
+    transform: rotate(10deg);
+  }
+  80% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 @media only screen and (max-width: 1459px) {
   .nav-bar-large {
     display: none !important;
@@ -288,6 +318,10 @@ nav {
   .nav-bar-small {
     display: flex !important;
     width: 100px !important;
+  }
+
+  .menu-logo:active {
+    animation: jiggle 0.5s ease-in-out infinite;
   }
 }
 
