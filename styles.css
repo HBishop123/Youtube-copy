@@ -488,7 +488,12 @@ main {
   height: 40px;
   min-width: 40px;
   border-radius: 50px;
-  border: 1px solid black;
+}
+
+.video-channel-logo{
+  height: 40px;
+  min-width: 40px;
+  border-radius: 50px;
 }
 
 .title {
