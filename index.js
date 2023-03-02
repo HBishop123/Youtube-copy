@@ -113,6 +113,21 @@ const sideBarFunctionality = {
         this.largeNavDesign();
       }
     });
-  }
+  },
 };
-sideBarFunctionality.sideBarChanging()
+sideBarFunctionality.sideBarChanging();
+
+youtubeButton = {
+  youtubeIcon: document.querySelector("#youtube-logo"),
+  youtubeText: document.querySelector("#youtube"),
+
+  pressYoutubeButton: function () {
+    this.youtubeIcon.addEventListener("click", () => {
+      location.reload(true);
+    });
+    this.youtubeText.addEventListener("click", () => {
+      location.reload(true);
+    });
+  },
+};
+youtubeButton.pressYoutubeButton();
