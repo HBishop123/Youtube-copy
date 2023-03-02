@@ -283,6 +283,7 @@ nav {
   justify-content: center;
   gap: 5px;
   width: 50px;
+  cursor: pointer;
 }
 
 .nav-text-small {
