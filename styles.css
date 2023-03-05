@@ -250,8 +250,6 @@ nav {
   border-radius: 50px;
 }
 
-
-
 .listing-chevron,
 .listing-chevron-hide {
   padding-left: 20px;
@@ -495,7 +493,7 @@ main {
   border-radius: 50px;
 }
 
-.video-channel-logo{
+.video-channel-logo {
   height: 40px;
   min-width: 40px;
   border-radius: 50px;
