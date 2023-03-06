@@ -133,6 +133,55 @@ youtubeButton = {
 youtubeButton.pressYoutubeButton();
 
 
-// smallSearch = document.querySelector('#small-view-search'){
 
-// }
+const smallSearchBarDisplay = {
+  smallSearchButton: document.querySelector("#small-view-search"),
+  smallSearchContainer: document.querySelector(".small-search-container"),
+
+  smallSearchShow: function () {
+    this.smallSearchContainer.style.display = "flex";
+    this.smallSearchContainer.id = "active-container-small";
+  },
+
+  smallSearchHide: function () {
+    this.smallSearchContainer.style.display = "none";
+    this.smallSearchContainer.id = "";
+  },
+
+  showOrHideSearch: function () {
+    this.smallSearchButton.addEventListener("click", () => {
+      if (
+        this.smallSearchContainer.className === "small-search-container" &&
+        this.smallSearchContainer.id !== "active-container-small"
+      ) {
+        this.smallSearchShow();
+      } else if (this.smallSearchContainer.id === "active-container-small") {
+        this.smallSearchHide();
+      }
+    });
+  },
+};
+smallSearchBarDisplay.showOrHideSearch()
+
+
+
+const smallSearchBarFunctionality = {
+  searchBar: document.getElementById("search-bar-small"),
+  searchButton: document.getElementById("search-small"),
+
+  searchQuery: function () {
+    searchValue = this.searchBar.value;
+    if (searchValue === "") {
+      return;
+    } else
+      this.searchBar.value = `https://www.youtube.com/results?search_query=${searchValue}`;
+  },
+
+  addListenerToSearchBar: function () {
+    this.searchButton.addEventListener("click", (e) => {
+      e.preventDefault();
+      this.searchQuery();
+    });
+  },
+};
+smallSearchBarFunctionality.addListenerToSearchBar();
