@@ -31,12 +31,12 @@ body {
 
 /* header styling for the entire heading START */
 header {
-  height: 10vh;
+  height: 15vh;
   display: flex;
   flex-direction: row;
   padding: 10px 20px 10px 10px;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   top: 0;
   position: sticky;
   background-color: white;
@@ -354,6 +354,14 @@ main {
   z-index: 1;
 }
 
+.container-for-search-and-suggestions{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
 .categories {
   height: 50px;
   width: 50vw;
@@ -363,7 +371,7 @@ main {
   gap: 20px;
   overflow-x: hidden;
   align-items: center;
-  position: fixed;
+
 }
 
 .category-listing {
