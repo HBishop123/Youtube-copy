@@ -131,3 +131,8 @@ youtubeButton = {
   },
 };
 youtubeButton.pressYoutubeButton();
+
+
+// smallSearch = document.querySelector('#small-view-search'){
+
+// }
