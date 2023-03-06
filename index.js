@@ -132,8 +132,6 @@ youtubeButton = {
 };
 youtubeButton.pressYoutubeButton();
 
-
-
 const smallSearchBarDisplay = {
   smallSearchButton: document.querySelector("#small-view-search"),
   smallSearchContainer: document.querySelector(".small-search-container"),
@@ -161,9 +159,7 @@ const smallSearchBarDisplay = {
     });
   },
 };
-smallSearchBarDisplay.showOrHideSearch()
-
-
+smallSearchBarDisplay.showOrHideSearch();
 
 const smallSearchBarFunctionality = {
   searchBar: document.getElementById("search-bar-small"),
