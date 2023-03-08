@@ -189,7 +189,7 @@ header {
   }
 }
 
-.lower-header{
+.lower-header {
   display: flex;
   flex-direction: column;
   position: sticky;
@@ -439,7 +439,6 @@ main {
   align-items: center;
   justify-content: center;
   padding: 100px 20px 20px 250px;
-  
 }
 
 .video-outline {
@@ -575,3 +574,5 @@ main {
     display: none !important;
   }
 }
+
+/* add media query for galaxy fold! */
