@@ -200,22 +200,20 @@ header {
   z-index: 1;
 }
 
-@media only screen and (max-width: 500px){
-.lower-header{
-  height: 7vh;
-}
+@media only screen and (max-width: 500px) {
+  .lower-header {
+    height: 7vh;
+  }
 
-header{
-  padding-bottom: 0px;
-  height: 5vh;
-}
+  header {
+    padding-bottom: 0px;
+    height: 5vh;
+  }
 
-.video-container{
-  padding-top: 40px;
+  .video-container {
+    padding-top: 40px;
+  }
 }
-}
-  
-
 
 /* Media query to remove search bar at certain width END */
 
