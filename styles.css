@@ -591,3 +591,8 @@ main {
 }
 
 /* add media query for galaxy fold! */
+
+
+#record-logo:hover{
+  cursor: pointer;
+}

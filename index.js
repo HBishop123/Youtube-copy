@@ -181,3 +181,9 @@ const smallSearchBarFunctionality = {
   },
 };
 smallSearchBarFunctionality.addListenerToSearchBar();
+
+
+const uploadVideoButton = document.querySelector('.record-logo')
+uploadVideoButton.addEventListener('click', () => {
+  console.log('hello')
+})
