@@ -380,7 +380,6 @@ main {
   height: 100%;
   width: 100%;
   align-items: center;
-  z-index: 0;
   padding-bottom: 20px;
 }
 
@@ -461,6 +460,10 @@ main {
   width: 350px;
   height: 250px;
   margin-top: 50px;
+}
+
+.video-outline:hover {
+  cursor: pointer;
 }
 
 .video-image {
@@ -593,7 +596,6 @@ main {
 
 /* add media query for galaxy fold! */
 
-
-#record-logo:hover{
+#record-logo:hover {
   cursor: pointer;
 }

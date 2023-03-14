@@ -183,7 +183,23 @@ const smallSearchBarFunctionality = {
 smallSearchBarFunctionality.addListenerToSearchBar();
 
 
-const uploadVideoButton = document.querySelector('.record-logo')
-uploadVideoButton.addEventListener('click', () => {
-  console.log('hello')
-})
+// adding link to each video image to link to video page
+
+const linkToVideo = {
+  linkBox: document.querySelectorAll(".video-image"),
+
+  link: function () {
+    this.linkBox.forEach((element) => {
+      const link = document.createElement("a");
+      link.href = "./video.html";
+      element.insertAdjacentElement("beforebegin", link);
+      link.appendChild(element);
+    });
+  },
+};
+linkToVideo.link();
+
+// const uploadVideoButton = document.querySelector('.record-logo')
+// uploadVideoButton.addEventListener('click', () => {
+//   console.log('hello')
+// })
