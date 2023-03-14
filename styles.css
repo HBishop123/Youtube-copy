@@ -202,7 +202,7 @@ header {
 
 @media only screen and (max-width: 500px) {
   .lower-header {
-    height: 7vh;
+    height: 10vh;
   }
 
   header {
@@ -479,7 +479,7 @@ main {
 
 @media only screen and (max-width: 899px) {
   .video-area {
-    width: 50% !important;
+    width: 60% !important;
     padding-left: 0px !important;
   }
 }
@@ -493,7 +493,7 @@ main {
     margin-top: 50px;
     padding-bottom: 0px;
     grid-auto-rows: 200px;
-    margin-left: 15px;
+    margin-left: 25px;
     padding-top: 50px;
   }
 
